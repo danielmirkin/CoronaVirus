@@ -46,9 +46,7 @@ class CoronaVirus:
                 print("Total recovered: " + str(total_recovered.text))
                 print("Serious, critical cases: " + str(serious_critical.text))
                 print("Total cases/1M population: " + str(tot_1m.text))
-
-
-
+                print("\n")
             except Exception as e:
                 print(e)
                 self.driver.quit()
